@@ -12,4 +12,13 @@ public class DetalleFactura {
     private Integer Id;
     private Double CostoTotal;
     private Integer CantidadProductos;
+
+    public DetalleFactura() {
+    }
+
+    public DetalleFactura(Integer id, Double costoTotal, Integer cantidadProductos) {
+        Id = id;
+        CostoTotal = costoTotal;
+        CantidadProductos = cantidadProductos;
+    }
 }

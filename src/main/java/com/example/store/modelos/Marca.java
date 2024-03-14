@@ -15,4 +15,16 @@ public class Marca {
     private LocalDate AnoCreacion;
 
     private String SedePrincipal;
+
+
+    public Marca() {
+    }
+
+    public Marca(Integer id, String nombre, String nit, LocalDate anoCreacion, String sedePrincipal) {
+        this.id = id;
+        Nombre = nombre;
+        Nit = nit;
+        AnoCreacion = anoCreacion;
+        SedePrincipal = sedePrincipal;
+    }
 }

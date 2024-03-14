@@ -16,4 +16,19 @@ public class Producto {
     private String Descripcion;
     private String Talla;
     private String Fotografia;
+
+
+    public Producto() {
+    }
+
+    public Producto(Integer id, String nombre, String referencia, Integer cantidadBodega, Double precioUnitario, String descripcion, String talla, String fotografia) {
+        Id = id;
+        Nombre = nombre;
+        Referencia = referencia;
+        CantidadBodega = cantidadBodega;
+        PrecioUnitario = precioUnitario;
+        Descripcion = descripcion;
+        Talla = talla;
+        Fotografia = fotografia;
+    }
 }

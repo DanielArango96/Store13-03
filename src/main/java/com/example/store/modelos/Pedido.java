@@ -12,4 +12,12 @@ public class Pedido {
 
     private Integer Id;
     private LocalDateTime fechayhoraPedido;
+
+    public Pedido() {
+    }
+
+    public Pedido(Integer id, LocalDateTime fechayhoraPedido) {
+        Id = id;
+        this.fechayhoraPedido = fechayhoraPedido;
+    }
 }
